@@ -5,7 +5,7 @@ import { FallbackImage } from "./FallbackImage";
 
 export function HeroBanner() {
   return (
-    <div className="w-full h-[400px] bg-gray-200 overflow-hidden relative">
+    <div className="w-full h-[250px] md:h-[400px] bg-gray-200 overflow-hidden relative">
 
       {/* Background Image & Bokeh Effects */}
       <motion.div

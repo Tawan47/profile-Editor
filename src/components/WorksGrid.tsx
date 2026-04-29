@@ -33,11 +33,11 @@ function WorkCard({ work, index }: { work: any; index: number }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
-      className="group cursor-pointer flex flex-col mb-20"
+      className="group cursor-pointer flex flex-col mb-12 md:mb-20"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <CardWrapper {...linkProps} className="flex flex-col gap-6 w-full">
+      <CardWrapper {...linkProps} className="flex flex-col gap-4 md:gap-6 w-full">
 
         {/* Thumbnail Container */}
         <div className={`relative w-full ${work.aspect || "aspect-[16/9]"} bg-gray-100 rounded-lg overflow-hidden shadow-sm group-hover:shadow-md transition-shadow duration-500`}>
@@ -82,7 +82,7 @@ function WorkCard({ work, index }: { work: any; index: number }) {
         {/* Meta */}
         <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 px-2">
           <div className="flex-1">
-            <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-gray-900 group-hover:text-gray-600 transition-colors mb-2">
+            <h3 className="text-xl md:text-3xl font-bold tracking-tight text-gray-900 group-hover:text-gray-600 transition-colors mb-2">
               {work.title}
             </h3>
             <p className="text-[13px] text-gray-500 font-semibold tracking-widest uppercase mb-6">

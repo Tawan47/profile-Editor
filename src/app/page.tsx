@@ -37,8 +37,8 @@ export default function Home() {
       <HeroBanner />
       
       {/* MAIN LAYOUT */}
-      <div className="max-w-[1200px] mx-auto px-6 relative z-10">
-        <div className="flex flex-col md:flex-row gap-12 -mt-20">
+      <div className="max-w-[1200px] mx-auto px-4 md:px-6 relative z-10">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-12 -mt-10 md:-mt-20">
           
           {/* Left Sidebar: Profile Card */}
           <aside className="w-full md:w-[320px] flex-shrink-0">
@@ -46,10 +46,10 @@ export default function Home() {
           </aside>
 
           {/* Right Content: Works Grid */}
-          <main className="flex-1 pt-24">
+          <main className="flex-1 pt-8 md:pt-24">
             <div className="mb-8 border-b border-gray-100 pb-4">
-              <h2 className="text-[22px] font-medium text-gray-800 mb-4">27 videos</h2>
-              <h3 className="text-sm font-semibold tracking-wider text-black uppercase">Director Work</h3>
+              <h2 className="text-[20px] md:text-[22px] font-medium text-gray-800 mb-4">27 videos</h2>
+              <h3 className="text-xs md:text-sm font-semibold tracking-wider text-black uppercase">Director Work</h3>
             </div>
             <WorksGrid works={works} />
           </main>
