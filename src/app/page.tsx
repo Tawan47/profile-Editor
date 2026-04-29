@@ -10,7 +10,7 @@ export default function Home() {
       author: "echo.drp", 
       duration: "04:30", 
       aspect: "aspect-[16/9]", 
-      image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=2564&auto=format&fit=crop", 
+      image: "/534727521_17846784471545367_2889139024276936306_n.jpg", 
       link: "https://www.youtube.com/watch?v=2j3VRIzn3BE",
       youtubeId: "2j3VRIzn3BE",
       description: "Music Video Presented by พลุ\nDirected by : echo.drp\nAssistant Director : Bas thossaporn\nCamera Operator : JUPITER\nProduction Manager : Hwalaz\nLighting Design : echo.drp , JUPITER\nEditor : echo.drp , JUPITER\nColor : echo.drp"
