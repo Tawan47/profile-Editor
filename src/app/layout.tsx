@@ -18,7 +18,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Antigravity | Premium Next.js Experience",
+  title: "profile",
   description: "Next-generation web applications built with precision and modern aesthetics.",
   keywords: ["Next.js", "React", "Premium Design", "Antigravity"],
 };

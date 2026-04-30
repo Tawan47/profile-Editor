@@ -15,16 +15,19 @@ export function ProfileCard() {
           {/* Profile Picture */}
           <div className="w-20 h-20 rounded-full overflow-hidden mb-4 relative group cursor-pointer">
             <img
-              src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=800&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800&auto=format&fit=crop"
               alt="Profile Picture"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
           </div>
           
           {/* Name */}
-          <h1 className="text-[22px] font-semibold tracking-tight text-gray-900 mb-3">
-            BE GREAT!!
-          </h1>
+          <div className="mb-3">
+            <h1 className="text-[20px] font-semibold tracking-tight text-gray-900 leading-tight">
+              Wanchanok Siriphanurak
+            </h1>
+            <p className="text-sm text-gray-500 font-medium">วรรณชนก ศิริภาณุรักษ์</p>
+          </div>
           
           {/* Location */}
           <div className="flex items-center gap-1.5 text-sm text-gray-900 font-medium mb-4">
@@ -32,23 +35,20 @@ export function ProfileCard() {
             <span>Bangkok, Thailand</span>
           </div>
 
-          {/* Pronouns */}
-          <p className="text-[13px] text-gray-700 mb-6">
-            he/him
-          </p>
-          
           {/* Bio Section */}
           <div className="flex flex-col text-[13px] text-gray-900 leading-snug mb-6">
-            <p>Freelance Film Director</p>
-            <p>Based in Bangkok!!</p>
-            <p>Tel:+66654982629</p>
-            <p>greatwutikorn@gmail.com</p>
+            <p className="font-semibold text-blue-600 mb-1">ผู้ประสานงานการจัดการ</p>
+            <p>Management Coordinator</p>
+            <p className="mt-2">Tel: 0657515366</p>
+            <p>jinjinwanchanok@gmail.com</p>
           </div>
 
-          {/* Contact */}
-          <div className="flex items-center gap-2.5 text-[13px] text-gray-900 mb-6">
-            <Mail className="w-4 h-4" />
-            <span>Greatwutikorn@gmail.com</span>
+          {/* Contact Details */}
+          <div className="flex flex-col gap-3 mb-6">
+            <div className="flex items-center gap-2.5 text-[13px] text-gray-900">
+              <Mail className="w-4 h-4 text-gray-400" />
+              <span>jinjinwanchanok@gmail.com</span>
+            </div>
           </div>
 
           {/* Follow Button */}
