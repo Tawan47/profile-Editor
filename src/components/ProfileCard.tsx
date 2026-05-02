@@ -13,14 +13,14 @@ export function ProfileCard() {
 
         <div className="flex flex-col items-start text-left">
           {/* Profile Picture */}
-          <div className="w-20 h-20 rounded-full overflow-hidden mb-4 relative group cursor-pointer">
+          <div className="w-20 h-20 rounded-full overflow-hidden mb-4 relative group cursor-pointer bg-black flex items-center justify-center p-2 border-2 border-gray-100 shadow-sm">
             <img
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800&auto=format&fit=crop"
+              src="/พลุ%20logo.png"
               alt="Profile Picture"
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
             />
           </div>
-          
+
           {/* Name */}
           <div className="mb-3">
             <h1 className="text-[20px] font-semibold tracking-tight text-gray-900 leading-tight">
@@ -28,7 +28,7 @@ export function ProfileCard() {
             </h1>
             <p className="text-sm text-gray-500 font-medium">วรรณชนก ศิริภาณุรักษ์</p>
           </div>
-          
+
           {/* Location */}
           <div className="flex items-center gap-1.5 text-sm text-gray-900 font-medium mb-4">
             <MapPin className="w-4 h-4" />
