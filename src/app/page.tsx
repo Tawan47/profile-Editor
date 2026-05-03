@@ -118,23 +118,23 @@ export default function Home() {
     },
     {
       id: 12,
-      title: "Beta DTP - DEKTHAPHRA Feat. UROLL Bellinium (Official Music Video)",
+      title: "FATBOII MQT - เจ้านกน้อย Ft. 6ixTown, Z9, wut",
       author: "ECHO & BK",
       aspect: "aspect-[16/9]",
       image: "/612449486_17865334062545367_715340683247129555_n.jpg",
-      link: "https://www.youtube.com/watch?v=J79uZbLao8E&list=RDJ79uZbLao8E&start_radio=1",
-      youtubeId: "J79uZbLao8E",
+      link: "https://www.youtube.com/watch?v=VQntpNZYYz8&list=RDVQntpNZYYz8&start_radio=1",
+      youtubeId: "VQntpNZYYz8",
       description: "Directed by : ECHO & BK @echoechosofxxkingawesome\nAssistant Director: Wararat Thanachockcheewathun\nProduction Manager: HWALAZ @hwalaz.t\nDirector Of Photography: JUPITER @jupiter_xml\nAssistant Camera: Kitayot Pasakornmetee\nGaffer: Jiranuwat Phettip\nLighting: Krittamet Thongsai & Tim Oestensen\nArt Director: Arreerat Jantaramanee\nEdit & Color : ECHO"
     },
     {
       id: 13,
-      title: "FATBOII MQT - เจ้านกน้อย Ft. 6ixTown, Z9, wut",
-      author: "ECHO & BK",
+      title: "Beta DTP - DEKTHAPHRA Feat. UROLL Bellinium (Official Music Video)",
+      author: "JUPITER",
       aspect: "aspect-[16/9]",
       image: "/612235981_17865385635545367_5922310102530658002_n.jpg",
-      link: "https://www.youtube.com/watch?v=VQntpNZYYz8&list=RDVQntpNZYYz8&start_radio=1",
-      youtubeId: "VQntpNZYYz8",
-      description: "Directed by : ECHO & BK @echoechosofxxkingawesome\nAssistant Director: Wararat Thanachockcheewathun\nProduction Manager: HWALAZ @hwalaz.t\nDirector Of Photography: JUPITER @jupiter_xml\nAssistant Camera: Kitayot Pasakornmetee\nGaffer: Jiranuwat Phettip\nLighting: Krittamet Thongsai & Tim Oestensen\nArt Director: Arreerat Jantaramanee\nEdit & Color : ECHO"
+      link: "https://www.youtube.com/watch?v=J79uZbLao8E&list=RDJ79uZbLao8E&start_radio=1",
+      youtubeId: "J79uZbLao8E",
+      description: "Directed by JUPITER @jupiter_xml\nProduction Manager : HWALAZ @hwalaz.t\nShot by ECHO @echoechosofxxkingawesome\nEditor & Color : JUPITER"
     },
     {
       id: 14,
